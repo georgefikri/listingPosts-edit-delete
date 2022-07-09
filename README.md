@@ -9,7 +9,7 @@
 
 ## Check the project on github pages
 
-- https://georgefikri.github.io/listingData-withFilteration/
+- https://georgefikri.github.io/listingPosts-edit-delete/
 
 ## links that helped me with some problems
 
