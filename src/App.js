@@ -19,7 +19,7 @@ const App = () => {
   }, [detailsView]);
 
   return (
-    <BrowserRouter basename="https://georgefikri.github.io/listingPosts-edit-delete/">
+    <BrowserRouter basename="/listingPosts-edit-delete">
       <Routes>
         <Route
           exact
