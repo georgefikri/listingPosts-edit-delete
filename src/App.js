@@ -22,11 +22,11 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route
-          path="/"
+          path="/listingPosts-edit-delete/"
           element={<HomePage setDetailsView={setDetailsView} />}
         />
         <Route
-          path="/details"
+          path="/listingPosts-edit-delete/details"
           element={<PostsView detailsView={detailsView} />}
         />
       </Routes>
