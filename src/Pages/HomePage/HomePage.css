@@ -1,0 +1,33 @@
+table {
+    border-spacing: 0;
+}
+tr:nth-of-type(odd) { 
+	background: #eee; 
+	}
+
+th { 
+	background: #383e42; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+	}
+
+
+/* style links to appear like buttons */
+.postsListing a, .postsListing button {
+	text-decoration: none;
+	color: #fff;
+	background-color: #383e42;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px;
+	border: 0;
+}

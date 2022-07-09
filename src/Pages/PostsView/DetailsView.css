@@ -1,0 +1,77 @@
+/* style form detailsViewContainer  */
+.detailsViewContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.detailsViewContainer,  h1 {
+    padding: 10px 20px ;
+
+}
+
+.detailsViewContainer label {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* detailsViewContainer span style */
+.detailsViewContainer span {
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+/* detailsViewContainer input style */
+.detailsViewContainer input, .detailsViewContainer textarea {
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1rem;
+    padding: 10px 5px;
+    width: 80%;
+    font-family: FontAwesome, "Montserrat", sans-serif;
+    font-size: 1rem;
+    line-height: 1.45rem;
+    display: block;
+    padding: 1.3rem 1.1rem;
+    margin-top: 0.33333rem;
+    border: 0.2rem solid #fafafa;
+    box-shadow: none;
+    outline: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-transition: all 0.33333s ease-in-out;
+    -moz-transition: all 0.33333s ease-in-out;
+    -o-transition: all 0.33333s ease-in-out;
+    transition: all 0.33333s ease-in-out;
+
+}
+
+.detailsViewContainer textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.detailsViewContainer button {
+    /* style submit button */
+    background-color: #00bcd4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-transition: all 0.33333s ease-in-out;
+    
+}
