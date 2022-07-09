@@ -22,11 +22,13 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route
-          path="/listingPosts-edit-delete"
+          exact
+          path="/"
           element={<HomePage setDetailsView={setDetailsView} />}
         />
         <Route
-          path="/listingPosts-edit-delete/details"
+          path="/details"
+          exact
           element={<PostsView detailsView={detailsView} />}
         />
       </Routes>
