@@ -13,7 +13,7 @@
 
 ## links that helped me with some problems
 
-- [https://stackoverflow.com/a/47012342](React component shows uncontrolled input type text even though it has name and value from state)
+- [https://stackoverflow.com/a/47012342] (React component shows uncontrolled input type text even though it has name and value from state)
 
 ## Available Scripts
 
