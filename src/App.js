@@ -22,7 +22,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route
-          path="/listingPosts-edit-delete/"
+          path="/listingPosts-edit-delete"
           element={<HomePage setDetailsView={setDetailsView} />}
         />
         <Route
