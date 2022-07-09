@@ -19,7 +19,7 @@ const App = () => {
   }, [detailsView]);
 
   return (
-    <BrowserRouter basename="/listingPosts-edit-delete">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route
           exact
