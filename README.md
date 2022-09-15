@@ -15,6 +15,7 @@
 
 - [https://stackoverflow.com/a/47012342] (React component shows uncontrolled input type text even though it has name and value from state)
 - [https://stackoverflow.com/a/54428366] github pages shows blank after deployment. the fix that i should add basename={process.env.PUBLIC_URL} to my BrowserRouter
+- [https://www.copycat.dev/blog/react-localstorage/] how to use localStorage with reactjs
 
 ## Available Scripts
 
